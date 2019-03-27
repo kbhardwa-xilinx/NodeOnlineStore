@@ -1,0 +1,22 @@
+{
+  "name": "node_express",
+  "version": "1.0.0",
+  "description": "Trying express.js for the first time",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
